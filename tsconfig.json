@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "app/dist/js", // Sera gerado em js no 
+        "target": "ES6", // Convertido em
+        "noEmitOnError": true, // Se tiver erros, nao gera arquivo
+        "noImplicitAny": true,
+        "removeComments": true, // Remover coments para o js
+        "strictNullChecks": true, // compilador TSC para de assumir implicitamente o tipo null para todos os tipos da aplicação. Caso null faça sentido,deve-se deixar isso explícito
+        "experimentalDecorators": true  // Habilitaar o uso de decorators experimentais
+    },
+    "include": ["app/**/*"] //O que sera convertido
+}
+
+//compile": "tsc", // Trnasforma ts em js 
+    //watch": "tsc -w"  //  se modificar qualquer arquivo "ts" automaticamente ele vai gerar o arquivo dentro da pasta "js"
