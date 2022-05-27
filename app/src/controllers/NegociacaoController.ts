@@ -32,6 +32,7 @@ export class NegociacaoController {
 
     }
     @inspect
+    
     @logarTempoDeExecucao()
     public adiciona() :void { // VOid -> retorna nada
         const negociacao = Negociacao.criaDe(
